@@ -1,0 +1,134 @@
+.brand-logo img{
+    height: 3rem;
+}
+
+
+#nav-mobile li{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0 , 0, 0.6);
+    padding-right: .7rem;
+    
+}
+
+.caption{
+   width:100%;
+   max-width:100%;
+   position:absolute;  
+}
+
+
+.caption h2,h5{
+    margin: 1rem auto;
+    width:60%;
+}
+
+.caption h2{
+    font-size:2rem;
+    font-weight:700;
+    letter-spacing:.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom:1rem;
+}
+
+.caption h5{
+    font-size:1.2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    letter-spacing:.2rem;
+    padding-bottom:1.6rem;
+}
+
+blockquote{
+    color: #1ebba3;
+    border:none;
+    margin: 1rem;
+}
+blockquote p{
+    font-size:2.3rem;
+}
+
+/* .section-contact{
+    padding: 2rem 0 3.5rem; 
+} */
+
+.section-meettheteam:before{
+   display: block;
+   content: "";
+   height: 4rem;
+   margin-top: -4rem;
+}
+
+.team img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team-hr{
+    border-top: .05rem solid #1ebba3;
+}
+
+
+.section-contact{
+    color:white;
+    padding: 2rem 0 2rem;
+    margin-top: 1rem;  
+}
+
+ .section-contact img{
+    height:4rem;
+    margin: 1.5rem 0;
+}
+
+.section-contact a{
+    color:white;
+    margin: 1.2rem .5rem 0 0;
+} 
+
+ hr.socket{
+    width: 100%;
+} 
+
+
+.section-contact{
+    margin: 0;
+    color:white;
+    text-align:center;
+}  
+
+.section-contact img{
+    height:4rem;
+}
+
+.section-contact a{
+    color:white;
+}
+
+
+
+/* Media Queries */
+@media (max-width:800px){
+    .caption h2{
+        font-size:2.3rem;
+        letter-spacing:.15rem;
+        text-shadow: .1rem .1rem .8rem black;
+        padding-bottom:.5rem;
+    }
+    
+    .caption h5{
+        font-size:1.2rem;
+        text-shadow: .1rem .1rem .5rem black;
+        letter-spacing:.2rem;
+        padding-bottom:1.2rem;
+    } 
+
+    blockquote p{
+        font-size:1.5rem;
+    } 
+    .team img{
+        max-width:50%;
+        display: block;
+        margin:0 auto; 
+    } 
+}
